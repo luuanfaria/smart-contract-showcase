@@ -8,7 +8,7 @@
     "deploy": "remix-ide deploy"
   },
   "dependencies": {
-    "remix-ide": "^0.11.5",
+    "remix-ide": "^0.10.3",
     "ethers": "^5.0.0"
   }
 }
