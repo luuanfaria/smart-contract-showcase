@@ -192,17 +192,20 @@ export default function Request({ data }: RequestProps) {
                   a donation.
                 </DialogDescription>
               </DialogHeader>
-              <Label htmlFor="amount" className="text-right">
-                Donation Amount
-              </Label>
-              <Input
-                id="amount"
-                type="number"
-                value={donationValue}
-                className="col-span-3"
-                placeholder="Ex.: 10"
-                onChange={handleChangeInput}
-              />
+
+              <div>
+                <Label htmlFor="amount" className="text-right">
+                  Donation Amount
+                </Label>
+                <Input
+                  id="amount"
+                  type="number"
+                  value={donationValue}
+                  className="col-span-3"
+                  placeholder="Ex.: 10"
+                  onChange={handleChangeInput}
+                />
+              </div>
 
               <DialogFooter>
                 <Button type="submit" onClick={handleSendDonate}>
