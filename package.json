@@ -1,0 +1,17 @@
+{
+  "name": "smart-contracts-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:dapp": "pnpm --filter dapp dev",
+    "build:dapp": "pnpm --filter dapp build",
+    "test:smart-contracts": "pnpm --filter smart-contracts test",
+    "deploy:smart-contracts": "pnpm --filter smart-contracts deploy"
+  },
+  "devDependencies": {
+    "pnpm": "^7.0.0"
+  }
+}
